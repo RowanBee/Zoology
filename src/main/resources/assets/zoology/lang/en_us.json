@@ -1,12 +1,12 @@
 {
-  "item.minecraft.lingering_potion.effect.cadaver_potion": "Lingering Potion of Cadaver",
+  "item.minecraft.lingering_potion.effect.cadaver_potion": "Lingering Cadaver Potion",
   "item.zoology.opossum_spawn_egg": "Opossum Spawn Egg",
-  "item.minecraft.tipped_arrow.effect.cadaver_potion": "Arrow of Cadaver",
+  "item.minecraft.tipped_arrow.effect.cadaver_potion": "Cadaver Arrow",
   "item.zoology.opossum_tail": "Opossum Tail",
   "item.animals.opossum_spawn_egg": "Opossum Spawn Egg",
-  "item.minecraft.splash_potion.effect.cadaver_potion": "Splash Potion of Cadaver",
+  "item.minecraft.splash_potion.effect.cadaver_potion": "Splash Cadaver Potion",
   "entity.animals.opossum": "Opossum",
-  "item.minecraft.potion.effect.cadaver_potion": "Potion of Cadaver",
+  "item.minecraft.potion.effect.cadaver_potion": "Cadaver Potion",
   "entity.zoology.opossum": "Opossum",
   "effect.cadaver": "Cadaver"
 }

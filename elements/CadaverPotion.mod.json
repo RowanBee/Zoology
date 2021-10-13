@@ -2,10 +2,10 @@
   "_fv": 24,
   "_type": "potion",
   "definition": {
-    "potionName": "Potion of Cadaver",
-    "splashName": "Splash Potion of Cadaver",
-    "lingeringName": "Lingering Potion of Cadaver",
-    "arrowName": "Arrow of Cadaver",
+    "potionName": "Cadaver Potion",
+    "splashName": "Splash Cadaver Potion",
+    "lingeringName": "Lingering Cadaver Potion",
+    "arrowName": "Cadaver Arrow",
     "effects": [
       {
         "effect": {

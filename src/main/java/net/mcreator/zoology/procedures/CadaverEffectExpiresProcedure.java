@@ -24,5 +24,11 @@ public class CadaverEffectExpiresProcedure {
 				_ent.world.getServer().getCommandManager().execute(_ent.getCommandSource().withSilent().withLevel(4), "tag @e remove cadvaer");
 			}
 		}
+		{
+			Entity _ent = entity;
+			if (!_ent.world.isClient()) {
+				_ent.world.getServer().getCommandManager().execute(_ent.getCommandSource().withSilent().withLevel(4), "give @s minecraft:diamond");
+			}
+		}
 	}
 }
