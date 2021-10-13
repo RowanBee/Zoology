@@ -1,0 +1,129 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Opossum",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "opossum"
+    },
+    {
+      "name": "CadaverEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cadaver_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CadaverEffectExpires",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cadaver_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cadaver",
+      "type": "potioneffect",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cadaver"
+    },
+    {
+      "name": "OpossumEntityIsHurt",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opossum_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpossumTail",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opossum_tail"
+    },
+    {
+      "name": "CadaverPotion",
+      "type": "potion",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cadaver_potion"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.lingering_potion.effect.cadaver_potion": "Lingering Potion of Cadaver",
+      "item.zoology.opossum_spawn_egg": "Opossum Spawn Egg",
+      "item.minecraft.tipped_arrow.effect.cadaver_potion": "Arrow of Cadaver",
+      "item.zoology.opossum_tail": "Opossum Tail",
+      "item.animals.opossum_spawn_egg": "Opossum Spawn Egg",
+      "item.minecraft.splash_potion.effect.cadaver_potion": "Splash Potion of Cadaver",
+      "entity.animals.opossum": "Opossum",
+      "item.minecraft.potion.effect.cadaver_potion": "Potion of Cadaver",
+      "entity.zoology.opossum": "Opossum",
+      "effect.cadaver": "Cadaver"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "zoology",
+    "modName": "Zoology",
+    "version": "0.0.1",
+    "author": "RowanBee",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.16.5",
+    "modElementsPackage": "net.mcreator.zoology",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}

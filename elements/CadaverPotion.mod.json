@@ -1,0 +1,21 @@
+{
+  "_fv": 24,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Cadaver",
+    "splashName": "Splash Potion of Cadaver",
+    "lingeringName": "Lingering Potion of Cadaver",
+    "arrowName": "Arrow of Cadaver",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Cadaver"
+        },
+        "duration": 600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}
